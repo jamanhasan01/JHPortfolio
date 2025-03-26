@@ -3,7 +3,7 @@ import Contact from "./Contact"
 import Hero from "./Hero"
 import Projects from "./Projects"
 import Skils from "./Skils"
-import MarqueeDemo from '../../Components/MarqueeDemo'
+import MarqueeDemo from '../../Components/Passions'
 
 const Home = () => {
   return (
@@ -15,6 +15,7 @@ const Home = () => {
         <About></About>
         <Contact></Contact>
         <MarqueeDemo/>
+       
     </div>
   )
 }

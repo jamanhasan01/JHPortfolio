@@ -18,6 +18,7 @@
     "daisyui": "^4.12.23",
     "emailjs-com": "^3.2.0",
     "lucide-react": "^0.483.0",
+    "motion": "^12.6.0",
     "next-themes": "^0.4.6",
     "postcss": "^8.4.49",
     "react": "^18.3.1",

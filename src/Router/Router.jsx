@@ -2,9 +2,10 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from "../Root";
 import ErrorPage from "../shared/ErrorPage";
 import Home from "../pages/Home/Home";
-import Projects from "../pages/Projects/Projects";
-import About from "../pages/About/About";
-import Contact from "../pages/Contact/Contact";
+import Projects from "../pages/Home/Projects";
+import About from "../pages/Home/About";
+import { Contact } from "lucide-react";
+
 
 let router=createBrowserRouter([
     {
@@ -25,7 +26,7 @@ let router=createBrowserRouter([
                 element:<About></About>
             },
             {
-                path:'/contect',
+                path:'/contact',
                 element:<Contact></Contact>
             },
            

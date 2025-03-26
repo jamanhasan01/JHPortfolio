@@ -3,7 +3,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 import resume from "../../assets/Hosna Jaman Emon - CV.pdf";
 import { IconCloudDemo } from "../../Components/IconCloudDemo";
 import { ParticlesDemo } from '../../Components/ParticlesDemo.tsx';
-
+import { BoxReveal } from "@/components/magicui/box-reveal"
 const Hero = () => {
   return (
     <div className="relative  overflow-hidden">
@@ -16,24 +16,32 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           {/* Left Column - Content */}
           <div className="flex-1 flex flex-col items-start gap-6 text-center lg:text-left">
+            <BoxReveal boxColor={"#f97316"} duration={0.5}>
             <h3 className="font-bold border rounded-full px-4 py-1 text-primary border-primary inline-block">
               Hey there 👋
             </h3>
-            
+            </BoxReveal>
+            <BoxReveal boxColor={"#f97316"} duration={0.5}>
             <h1 className="text-4xl md:text-5xl font-bold">
               I'm <span className="text-primary">Jaman Hasan</span>
             </h1>
-            
+            </BoxReveal>
+            <BoxReveal boxColor={"#f97316"} duration={0.5}>
             <h3 className="text-2xl text-primary">
               A Junior Front-End Developer
             </h3>
-            
+            </BoxReveal>
+            <BoxReveal boxColor={"#f97316"} duration={0.5}>
+
             <p className="text-lg max-w-lg">
               I'm passionate about building visually appealing and functional
               web interfaces using modern technologies like React and Tailwind
               CSS. I strive to create impactful digital solutions.
             </p>
+            </BoxReveal>
             
+            <BoxReveal boxColor={"#f97316"} duration={0.5}>
+
             {/* Social Icons */}
             <div className="flex gap-4 text-3xl">
               <a
@@ -76,6 +84,7 @@ const Hero = () => {
                 <FaSquareGithub />
               </a>
             </div>
+            </BoxReveal>
 
             {/* Download Button */}
             <a 

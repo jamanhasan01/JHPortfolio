@@ -1,7 +1,8 @@
 import emailjs from "@emailjs/browser";
 import { MdEmail } from "react-icons/md";
 import Swal from "sweetalert2";
-
+import ShineBorderDemo from '../../Components/ShineBorderDemo'
+import { TextReveal } from "@/components/magicui/text-reveal";
 const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
@@ -35,6 +36,7 @@ const Contact = () => {
 
   return (
     <section className="bg-secondary bg-opacity-5">
+     
       <div className="container grid md:grid-cols-2 items-center gap-10">
         <div className="space-y-2">
           <h2 className="text-5xl font-semibold">Let’s chat.</h2>
@@ -52,10 +54,12 @@ const Contact = () => {
           </div>
         </div>
         <div>
+      
           <form
             onSubmit={sendEmail}
-            className="card-body border border-gray-500 bg-black/40 rounded-xl"
+            className="card-body relative  bg-black/40 "
           >
+               <ShineBorderDemo/>
             <h2 className="text-2xl font-semibold">Send us a message</h2>
             <div className="form-control">
               <input
