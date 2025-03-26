@@ -1,10 +1,11 @@
+import Title from '../../Components/Title'
 import learnhub from './images/learnhub.png'
 import movies from './images/movie.png'
 const Projects = () => {
   return (
       <section className='bg-black/50'>
           <div className="container mx-auto px-4 py-8">
-            <h1 className="text-4xl font-bold mb-10 text-center">Projects</h1>
+            <Title title={'Projects'}></Title>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6">
               {/* Card 1 */}
               <div className=" bg-primary bg-opacity-10 gap-2 flex flex-col justify-between items-center text-center border p-4 border-gray-600 rounded-xl  w-full">

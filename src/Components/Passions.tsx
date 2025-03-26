@@ -82,11 +82,12 @@ export default function MarqueeDemo() {
             ))}
           </Marquee>
           
-          {/* Gradient fade effects */}
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-black to-transparent dark:from-gray-950 z-10" />
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-black to-transparent dark:from-gray-950 z-10" />
+         
         </div>
       </div>
+       {/* Gradient fade effects */}
+       <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-black to-transparent dark:from-gray-800 z-10" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-black to-transparent dark:from-gray-800 z-10" />
     </section>
   );
 }

@@ -1,4 +1,4 @@
-import { IconCloud } from "@/registry/magicui/icon-cloud";
+import { IconCloud } from "@/components/magicui/icon-cloud";
 
 const slugs = [
   "typescript",
