@@ -4,7 +4,7 @@ import { IoMdFootball } from "react-icons/io";
 
 const About = () => {
   return (
-    <section className=" py-12">
+    <section className=" py-12 border-t border-gray-600">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-8">
           About Me

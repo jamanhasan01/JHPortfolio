@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"; // Add these imports
 import logo from "../assets/logo.png";
 import ThemeMode from "../Components/ThemeMode";
 
+
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -34,7 +35,7 @@ const Navbar = () => {
 
   return (
     <div className={`fixed left-0 top-0 w-full z-50 transition-all duration-300 `}>
-      <div className={`navbar justify-between max-w-lg rounded-full border-gray-500 py-0 mt-2 bg-slate-800 border mx-auto ${isScrolled ? "bg-opacity-70" : ""}`}>
+      <div className={`navbar justify-between max-w-lg rounded-full border-gray-500 py-0 mt-2 bg-gray-600 bg-opacity-20 relative  border mx-auto ${isScrolled ? "bg-opacity-70" : ""}`}>
         <div className="">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

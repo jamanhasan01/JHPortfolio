@@ -17,7 +17,7 @@ const Hero = () => {
           {/* Left Column - Content */}
           <div className="flex-1 flex flex-col items-start gap-6 text-center lg:text-left">
             <BoxReveal boxColor={"#f97316"} duration={0.5}>
-            <h3 className="font-bold border rounded-full px-4 py-1 text-primary border-primary inline-block">
+            <h3 className="font-normal bg-slate-600 bg-opacity-30 border rounded-full px-4 py-1 text-primary border-primary inline-block">
               Hey there 👋
             </h3>
             </BoxReveal>
@@ -90,7 +90,7 @@ const Hero = () => {
             <a 
               href={resume} 
               download 
-              className="btn btn-primary px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all"
+              className="button border-primary text-primary hover:bg-primary py-2"
             >
               Download Resume
             </a>

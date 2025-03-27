@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-secondary bg-opacity-5">
+    <section className="bg-secondary bg-opacity-5 border-y border-gray-600">
      
       <div className="container grid md:grid-cols-2 items-center gap-10">
         <div className="space-y-2">
@@ -90,14 +90,14 @@ const Contact = () => {
                 id="message"
                 name="message" // Matches {{message}} in the template
                 placeholder="Message"
-                className="input input-bordered h-24"
+                className="input input-bordered  h-24"
                 required
               ></textarea>
             </div>
             {/* Hidden input for `to_name` */}
             <input type="hidden" name="to_name" value="Jaman Hasan" />
             <div className="form-control mt-6">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="button py-3  ">
                 Send Message
               </button>
             </div>
