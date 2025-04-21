@@ -2,18 +2,18 @@ import Title from '../../Components/Title'
 import learnhub from './images/learnhub.png'
 import movies from './images/movie.png'
 import mountainRush from './images/mountainRush.png'
-
+import getearn from './images/getearn.png'
 import ShineBorderDemo from '../../Components/ShineBorderDemo';
 
 
 const projectsData = [
   {
     id: 1,
-    image: learnhub,
-    title: "LearnHub",
-    features: ["React", "Tailwind", "Node.js", "MongoDB"],
-    liveLink: "https://learnhub01.surge.sh/",
-    githubLink: "https://learnhub01.surge.sh/"
+    image: getearn,
+    title: "Get Earn",
+    features: ["React", "Tailwind", "Node.js", "MongoDB",'express'],
+    liveLink: "https://getearn-18654.web.app/",
+    githubLink: "https://github.com/jamanhasan01/getEarn-frontEnd"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     title: "Movie App",
     features: ["React", "Tailwind", "Firebase"],
     liveLink: "https://movies01.surge.sh/",
-    githubLink: "https://learnhub01.surge.sh/"
+    githubLink: "https://github.com/jamanhasan01/movies01-FrontEnd/"
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projectsData = [
     title: "Mountain Rush",
     features: ["React", "Tailwind", "Firebase"],
     liveLink: "https://mountainRush.surge.sh/",
-    githubLink: "https://learnhub01.surge.sh/"
+    githubLink: "https://github.com/jamanhasan01/mountainRush/"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Dashboard",
     features: ["React", "Material UI", "Express"],
     liveLink: "https://learnhub01.surge.sh/",
-    githubLink: "https://learnhub01.surge.sh/"
+    githubLink: "https://github.com/jamanhasan01/LearnHub-FrontEnd/"
   }
 ];
 

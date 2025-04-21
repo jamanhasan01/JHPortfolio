@@ -13,6 +13,7 @@ import {
 } from "react-icons/si";
 import ShineBorderDemo from '../../Components/ShineBorderDemo';
 import { TextReveal } from "@/components/magicui/text-reveal";
+import Title from "../../Components/Title";
 
 const Skils = () => {
   const skillsData = [
@@ -81,8 +82,8 @@ const Skils = () => {
   return (
     <section className="bg-slate-750 border-y border-gray-500">
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-10 text-center">Skills & Services</h1>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <Title title={'My Tech Stack'}></Title>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {skillsData.map((skill) => (
             <div
               key={skill.id}
@@ -92,7 +93,7 @@ const Skils = () => {
                 {skill.icon}
               </div>
               <h3 className="text-2xl font-semibold">{skill.name}</h3>
-              <p className="text-sm text-gray-400">{skill.description}</p>
+            
               <ShineBorderDemo />
             </div>
           ))}

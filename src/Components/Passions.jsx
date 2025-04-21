@@ -1,5 +1,6 @@
+import React from 'react';
 import { cn } from "@/lib/utils";
-import { Marquee } from "@/components/magicui/marquee"
+import { Marquee } from "@/components/magicui/marquee";
 
 const reviews = [
   {
@@ -26,7 +27,7 @@ const ReviewCard = ({ img, name, username, body }) => {
   return (
     <div
       className={cn(
-        "relative mx-2  h-48 w-72 cursor-pointer overflow-hidden rounded-xl border p-6",
+        "relative mx-2 h-48 w-72 cursor-pointer overflow-hidden rounded-xl border p-6",
         "border-gray-400 bg-white backdrop-blur-sm shadow-md hover:shadow-lg",
         "dark:border-gray-600 dark:bg-gray-800",
         "transition-all duration-300 hover:-translate-y-1"
@@ -54,11 +55,11 @@ const ReviewCard = ({ img, name, username, body }) => {
   );
 };
 
-export default function MarqueeDemo() {
+const Passions = () => {
   return (
     <section className="relative w-full overflow-hidden py-12">
-      <div >
-        <h2 className="mb-8 text-center text-3xl font-bold">
+      <div>
+        <h2 className="mb-8 text-center text-primary text-3xl font-bold">
           My Passions
         </h2>
         
@@ -81,13 +82,14 @@ export default function MarqueeDemo() {
               <ReviewCard key={`reverse-${index}`} {...review} />
             ))}
           </Marquee>
-          
-         
         </div>
       </div>
-       {/* Gradient fade effects */}
-       <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-black to-transparent dark:from-gray-800 z-10" />
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-black to-transparent dark:from-gray-800 z-10" />
+      
+      {/* Gradient fade effects */}
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-black to-transparent dark:from-gray-800 z-10" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-black to-transparent dark:from-gray-800 z-10" />
     </section>
   );
-}
+};
+
+export default Passions;

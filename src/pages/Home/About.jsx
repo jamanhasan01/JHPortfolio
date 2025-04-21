@@ -1,14 +1,13 @@
 
 import { FaLaptopCode,  FaPlane } from "react-icons/fa";
 import { IoMdFootball } from "react-icons/io";
+import Title from "../../Components/Title";
 
 const About = () => {
   return (
     <section className=" py-12 border-t border-gray-600">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-8">
-          About Me
-        </h2>
+      <Title title={'About Me'}></Title>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1: Profession */}
           <div className=" border bg-black/30 border-gray-500 shadow-lg rounded-lg p-6 text-center">
