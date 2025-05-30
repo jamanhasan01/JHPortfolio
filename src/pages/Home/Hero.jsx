@@ -100,7 +100,7 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Right Column - Icon Cloud */}
+          {/* Right Column - Icon Clou*/}
           <div className="flex-1 w-full h-[400px] lg:h-[500px]">
             <IconCloudDemo />
           </div>
