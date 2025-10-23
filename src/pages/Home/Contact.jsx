@@ -2,7 +2,7 @@ import emailjs from "@emailjs/browser";
 import { MdEmail } from "react-icons/md";
 import Swal from "sweetalert2";
 import ShineBorderDemo from '../../Components/ShineBorderDemo'
-import { TextReveal } from "@/components/magicui/text-reveal";
+
 const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
