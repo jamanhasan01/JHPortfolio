@@ -1,4 +1,4 @@
-import React from "react";
+
 import { 
   SiReact, 
   SiFirebase, 
@@ -12,7 +12,7 @@ import {
   SiJavascript 
 } from "react-icons/si";
 import ShineBorderDemo from '../../Components/ShineBorderDemo';
-import { TextReveal } from "@/components/magicui/text-reveal";
+
 import Title from "../../Components/Title";
 
 const Skils = () => {
