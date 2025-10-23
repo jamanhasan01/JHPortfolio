@@ -2,7 +2,7 @@ import { FaLinkedin, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa'
 import { FaSquareGithub } from 'react-icons/fa6'
 import { IconCloudDemo } from '../../Components/IconCloudDemo'
 import { ParticlesDemo } from '../../Components/ParticlesDemo.tsx'
-import { BoxReveal } from '@/components/magicui/BoxReveal'
+import { BoxReveal } from '@/components/magicui/BoxReveal.tsx'
 
 const Hero = () => {
   return (
