@@ -3,7 +3,7 @@ import Contact from "./Contact";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import Skils from "./Skils";
-import MarqueeDemo from "../../Components/Passions";
+import MarqueeDemo from "../../Components/Passions.jsx";
 
 const Home = () => {
   return (

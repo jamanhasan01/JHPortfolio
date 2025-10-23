@@ -1,4 +1,4 @@
-import { ShineBorder } from '@/components/magicui/ShineBorder'
+import { ShineBorder } from '@/components/magicui/ShineBorder.tsx'
 
 function ShineBorderDemo() {
   return (
