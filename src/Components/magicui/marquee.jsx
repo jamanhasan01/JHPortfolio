@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { useMemo } from "react";
+import PropTypes from 'prop-types'; // <-- Import PropTypes
 
 export function Marquee({
   className,
@@ -7,7 +8,7 @@ export function Marquee({
   pauseOnHover = false,
   children,
   vertical = false,
-  repeat = 4,
+  repeat = 4, // <-- The prop causing the warning
   duration = 40,
   gap = "1rem",
   ...props
@@ -53,3 +54,17 @@ export function Marquee({
     </div>
   );
 }
+
+// --- Props Validation to fix the ESLint warning ---
+Marquee.propTypes = {
+  className: PropTypes.string,
+  reverse: PropTypes.bool,
+  pauseOnHover: PropTypes.bool,
+  children: PropTypes.node,
+  vertical: PropTypes.bool,
+  // 🌟 This line validates the 'repeat' prop
+  repeat: PropTypes.number, 
+  duration: PropTypes.number,
+  gap: PropTypes.string,
+};
+// -------------------------------------------------
