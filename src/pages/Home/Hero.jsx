@@ -83,7 +83,7 @@ const Hero = () => {
 
             {/* Download Button */}
             <a
-              href='https://drive.google.com/file/d/1kAPca_UNsmkDg_nOVMYGn4ilW87KCp-8/view?usp=sharing'
+              href='https://drive.google.com/file/d/1RurlgkLW5A24hLKdZHFy5YbVG1XJTR4W/view'
               target='_blank'
               download={'JamanHasan-Resume.pdf'}
               rel='noopener noreferrer'
