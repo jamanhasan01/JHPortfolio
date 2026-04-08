@@ -23,7 +23,7 @@ const Hero = () => {
             </BoxReveal>
             <BoxReveal boxColor={'#f97316'} duration={0.5}>
               <h1 className='text-4xl md:text-5xl font-bold'>
-                {`I'm ${(<span className='text-primary'>Jaman Hasan</span>)}`}
+                `I'm ${(<span className='text-primary'>Jaman Hasan</span>)}`
               </h1>
             </BoxReveal>
             <BoxReveal boxColor={'#f97316'} duration={0.5}>
