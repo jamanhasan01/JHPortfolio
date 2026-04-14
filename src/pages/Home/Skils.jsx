@@ -11,9 +11,9 @@ import {
   SiCss, 
   SiJavascript 
 } from "react-icons/si";
-import ShineBorderDemo from '../../Components/ShineBorderDemo';
+import ShineBorderDemo from '../../components/ShineBorderDemo';
 
-import Title from "../../Components/Title";
+import Title from "../../components/Title";
 
 const Skils = () => {
   const skillsData = [
