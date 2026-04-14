@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 
 
 const Contact = () => {
-  const sendEmail = (e) => {
+  const sendEmail = (e:any) => {
     e.preventDefault();
     const form = e.target; // Get the form element
 
