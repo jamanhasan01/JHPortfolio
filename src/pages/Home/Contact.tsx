@@ -1,7 +1,8 @@
+import ShineBorderDemo from "@/components/ShineBorderDemo";
 import emailjs from "@emailjs/browser";
 import { MdEmail } from "react-icons/md";
 import Swal from "sweetalert2";
-import ShineBorderDemo from '../../Components/ShineBorderDemo.js'
+
 
 const Contact = () => {
   const sendEmail = (e) => {

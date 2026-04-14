@@ -82,7 +82,7 @@ const Skils = () => {
   return (
     <section className="bg-slate-750 border-y border-gray-500">
       <div className="container mx-auto px-4 py-8">
-        <Title title={'My Tech Stack'}></Title>
+        <Title title={'My Tech Stack'} subTitle=""></Title>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {skillsData.map((skill) => (
             <div

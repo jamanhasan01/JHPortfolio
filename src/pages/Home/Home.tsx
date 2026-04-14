@@ -2,8 +2,9 @@ import About from "./About";
 import Contact from "./Contact";
 import Hero from "./Hero";
 import Projects from "./Projects";
+
 import Skils from "./Skils";
-import MarqueeDemo from "../../Components/Passions.js";
+
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <Projects></Projects>
       <About></About>
       <Contact></Contact>
-      <MarqueeDemo />
+      
     </div>
   );
 };
