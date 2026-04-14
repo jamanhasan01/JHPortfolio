@@ -1,6 +1,11 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/magicui/marquee";
-import PropTypes from 'prop-types'; // <-- Import PropTypes to fix the warning
+type Review = {
+  img: string;
+  name: string;
+  username: string;
+  body: string;
+};
 
 const reviews = [
   {
@@ -24,7 +29,7 @@ const reviews = [
 ];
 
 
-const ReviewCard = ({ img, name, username, body }) => {
+const ReviewCard = ({ img, name, username, body }: Review) => {
   return (
     <div
       className={cn(
@@ -56,14 +61,7 @@ const ReviewCard = ({ img, name, username, body }) => {
   );
 };
 
-// --- Props Validation to fix the ESLint warning ---
-ReviewCard.propTypes = {
-  img: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  username: PropTypes.string.isRequired, // <-- This explicitly validates 'username'
-  body: PropTypes.string.isRequired,
-};
-// -------------------------------------------------
+ 
 
 
 const Passions = () => {
